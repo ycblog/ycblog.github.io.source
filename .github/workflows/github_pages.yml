@@ -27,6 +27,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: git@github.com:ycblog/ycblog.github.io.git
+          external_repository: ycblog/ycblog.github.io
           publish_branch: master
           publish_dir: ./public
